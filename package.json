@@ -1,37 +1,19 @@
 {
-  "name": "tugasapiautomationdigitalskolabatch5",
+  "name": "latihanapiaja",
   "version": "1.0.0",
-  "type":"module",
-  "description": "This is unit test API for Digital Skola's taks at Bootcamp QA Engineer Batch 5",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "getSingleUser": "mocha reqresTest/singleUser.js",
-    "postCreateUser": "mocha reqresTest/createUser.js",
-    "putUpdateUser": "mocha reqresTest/updateUser.js",
-    "deleteUser": "mocha reqresTest/deleteUser.js",
-    "testCoba": "mocha reqresTest/cobajsonSchema.js"
+    "test": "mocha test/test-demo.js",
+    "testReqres": "mocha test/test-reqres.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rezaparamarta/TugasAPIautomationSupertestDgtlSklBatch5.git"
-  },
-  "keywords": [
-    "Testing",
-    "API",
-    "supertest",
-    "digitalSkola"
-  ],
-  "author": "Reza Paramarta",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rezaparamarta/TugasAPIautomationSupertestDgtlSklBatch5/issues"
-  },
-  "homepage": "https://github.com/rezaparamarta/TugasAPIautomationSupertestDgtlSklBatch5#readme",
   "devDependencies": {
-    "ajv": "^8.17.1",
-    "chai": "^5.1.1",
+    "awesome": "^0.0.7",
+    "chai": "^4.3.10",
     "chai-json-schema": "^1.5.1",
-    "chai-json-schema-ajv": "^5.2.4",
     "mocha": "^10.7.3",
     "mochawesome": "^7.1.3",
     "supertest": "^7.0.0"
